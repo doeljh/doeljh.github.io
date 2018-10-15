@@ -8,18 +8,21 @@
 	font-size: 16px;
 	font-weight: 100;
 	letter-spacing: .1px;
+	text-transform: capitalize;
 }
 
 #allheader {
 	background: linear-gradient(120deg, #155799, #159957);
 	background: transparent;
 	z-index: 2;
+	text-transform: capitalize;
 }
 .navbar-default .navbar-nav > li > a {
     color: #555;
     position: relative;
     display: block;
-    padding: 15px 15px;
+	padding: 15px 15px;
+	text-transform: capitalize;
 }
 .navbar-toggle {
 	margin-top: 28px;
@@ -27,6 +30,7 @@
 	margin-right: 0px;
 	background-color: transparent;
 	border: 1px solid transparent;
+	text-transform: capitalize;
 }
 
 @media (max-width: 767px) {

@@ -13,7 +13,8 @@ html{
 
 #header {
 	height: 100%;
-    overflow: hidden;
+	overflow: hidden;
+	text-transform: capitalize;
 }
 
 .section-intro {
