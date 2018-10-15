@@ -12,7 +12,7 @@
   <meta name="description" content="IntroI am  My work">
 <meta property="og:type" content="website">
 <meta property="og:title" content="About Me">
-<meta property="og:url" content="http://yoursite.com/About/index.html">
+<meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="Chun-Hao Liu&#39;s Web">
 <meta property="og:description" content="IntroI am  My work">
 <meta property="og:locale" content="zh">
@@ -102,7 +102,7 @@
                 
                   <li> <a class="main-nav-link" href="/about">about me</a> </li>
                 
-                  <li> <a class="main-nav-link" href="/Course">course</a> </li>
+                  <li> <a class="main-nav-link" href="/course">course</a> </li>
                 
                   <li><div id="search-form-wrap">
 
@@ -151,6 +151,81 @@
 
 
 
+  
+    <section class="awSlider">
+      <div class="carousel slide carousel-fade " data-ride="carousel">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+           
+              
+                <div class="item active" style="max-height:600px; overflow: hidden;">
+              
+                <img id="carousel-img0" src="/css/images/pose.jpg"> <!--更换 about me 的头图-->
+              </div>
+
+              <!-- 自适应大图 -->
+              <script>
+              	  var carouselResize = function() {
+              	  	  var h = document.body.clientHeight / 3;
+	                  var img0 = new Image();
+	                  var imageTag0 = document.getElementById("carousel-img0");
+	                  img0.src = imageTag0.src;
+	                  img0.onload=function(){
+	                    if (img0.width / img0.height <= document.body.clientWidth / h) {
+	                      imageTag0.style.width = document.body.clientWidth + "px";
+	                    } else {
+	                      imageTag0.style.height = h + "px";
+	                      imageTag0.style.marginLeft = -(h * img0.width / img0.height - document.body.clientWidth) / 2 + "px";
+	                    }
+	                  };
+              	  };
+                  carouselResize();
+              </script>
+            
+              
+                <div class="item" style="max-height:600px; overflow: hidden;">
+              
+                <img id="carousel-img1" src="/css/images/sample.jpg">
+              </div>
+
+              <!-- 自适应大图 -->
+              <script>
+              	  var carouselResize = function() {
+              	  	  var h = document.body.clientHeight / 3;
+	                  var img1 = new Image();
+	                  var imageTag1 = document.getElementById("carousel-img1");
+	                  img1.src = imageTag1.src;
+	                  img1.onload=function(){
+	                    if (img1.width / img1.height <= document.body.clientWidth / h) {
+	                      imageTag1.style.width = document.body.clientWidth + "px";
+	                    } else {
+	                      imageTag1.style.height = h + "px";
+	                      imageTag1.style.marginLeft = -(h * img1.width / img1.height - document.body.clientWidth) / 2 + "px";
+	                    }
+	                  };
+              	  };
+                  carouselResize();
+              </script>
+            
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Geri</span>
+        </a>
+        <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">İleri</span>
+        </a>
+      </div>
+    </section>
+    
+  
+
+
+
       
             
       <div id="content" class="outer">
@@ -171,10 +246,6 @@
     
     <div class="article-meta">
       
-	<a href="/About/index.html" class="article-date">
-	  <time datetime="2018-10-15T13:14:52.497Z" itemprop="datePublished">2018-10-15</time>
-	</a>
-
       
       
     </div>
@@ -244,7 +315,7 @@
   
     <a href="/about" class="mobile-nav-link">About me</a>
   
-    <a href="/Course" class="mobile-nav-link">Course</a>
+    <a href="/course" class="mobile-nav-link">Course</a>
   
 </nav> -->
     
